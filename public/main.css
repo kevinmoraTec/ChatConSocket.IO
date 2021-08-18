@@ -1,0 +1,81 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgb(228, 231, 12);
+}
+
+#titulo{
+    text-align: center;
+}
+#titleChat{
+    background-color: aqua;
+}
+#containerChatEcuador{
+    padding: 15px; 
+    height: 450px;
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px dashed #ddd;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0 , .5);
+    border-radius: 15px;
+}
+#ventanaChat{
+    overflow: hidden ;
+    overflow-y: auto;
+    height: 150px;
+    padding: 14px 0;
+    margin: 10px 20px;
+    border-bottom: 1px inset;
+    color:#13140d;
+    border-radius: 15px;
+    background: #eee;
+}
+#output p{
+    color: rgb(29, 6, 6);
+    padding: 14px 0;
+    margin: 0 90px;
+}
+
+#actions p{
+    padding: 14px 0;
+    margin: 0 20px;
+    
+    color: #FFF;
+}
+#username{
+    margin: 15px 0;
+    border-bottom: 1px inset;
+    text-align: center;
+    background: #FFF
+    
+}
+#message{
+    margin: 15px 0;
+    text-align: center;
+    border-radius: 15px;
+}
+#icono{
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+input{ 
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 0;
+    background: #eee;
+    display: block;
+    width: 100%;
+}
+
+button{
+    background: #acca4a;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 15%;
+}
+button:hover{
+    background: #d865c8;
+}
